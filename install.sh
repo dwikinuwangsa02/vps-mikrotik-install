@@ -10,7 +10,7 @@ echo "Preparation ..."
 apt update && apt install unzip wget -y
 
 # Menggunakan versi pilihanmu
-CHR_VERSION=7.22.3
+CHR_VERSION=7.15.3
 
 # Mengambil informasi sistem otomatis
 DISK=$(lsblk | grep "disk" | head -n 1 | cut -d' ' -f1)
